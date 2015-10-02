@@ -67,6 +67,7 @@ from subprocess import call, check_call
 from time import sleep, strftime
 from pprint import pprint
 import os, string
+from os.path import basename,dirname
 import pexpect, fdpexpect
 import pxssh
 import sys
@@ -726,7 +727,12 @@ def get_loopback_cport(ssh):
         ssh.sendline('cat {}'.format(p))
         ssh.readline()
         ssh.prompt()
-        protocol_id = int(ssh.before.split()[0])
+        try:
+           protocol_id = int(ssh.before.split()[0])
+        except:
+           info("skipping invalid protocol id for ",basename(dirname(p)));
+           continue
+
         debug('file: {}, protocol_id: {}'.format(p, protocol_id))
         if protocol_id == loopback_protocol_id:
             cportid = p.split(':')[-1].split('/')[0]
