@@ -31,7 +31,7 @@
 #include <stddef.h>
 
 #include <osal/greybus/unipro.h>
-#include <nuttx/greybus/tsb_unipro.h>
+#include <osal/greybus/tsb_unipro.h>
 
 #define TO_ATTR_NAME(a) {.attr = a, .name = #a}
 

@@ -38,7 +38,7 @@
 
 #include <nuttx/list.h>
 #include <osal/greybus/unipro.h>
-#include <nuttx/greybus/tsb_unipro.h>
+#include <osal/greybus/tsb_unipro.h>
 
 #include "interface.h"
 

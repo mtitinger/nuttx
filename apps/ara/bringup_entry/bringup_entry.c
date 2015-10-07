@@ -27,7 +27,7 @@
  */
 
 #include <stdio.h>
-#include <nuttx/greybus/tsb_unipro.h>
+#include <osal/greybus/tsb_unipro.h>
 #include <nuttx/unipro/unipro.h>
 
 #include <apps/nsh.h>

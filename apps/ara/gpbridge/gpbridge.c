@@ -35,7 +35,7 @@
 #include <stdio.h>
 #include <errno.h>
 
-#include <nuttx/greybus/tsb_unipro.h>
+#include <osal/greybus/tsb_unipro.h>
 #include <apps/greybus-utils/utils.h>
 #include <apps/ara/service_mgr.h>
 #include <apps/ara/gb_loopback.h>
