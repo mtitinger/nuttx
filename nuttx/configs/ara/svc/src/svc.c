@@ -31,7 +31,7 @@
 #include <nuttx/config.h>
 #include <nuttx/arch.h>
 #include <nuttx/util.h>
-#include <nuttx/greybus/unipro.h>
+#include <osal/greybus/unipro.h>
 #include <nuttx/greybus/greybus.h>
 #include <nuttx/unipro/unipro.h>
 
