@@ -30,7 +30,7 @@
 #define _GREYNUS_UTILS_UTILS_H_
 
 #include <nuttx/greybus/debug.h>
-#include <nuttx/greybus/types.h>
+#include <osal/greybus/types.h>
 #include <nuttx/greybus/greybus.h>
 
 #include <apps/greybus-utils/svc.h>

@@ -29,7 +29,7 @@
 #ifndef _GREYBUS_I2C_H_
 #define _GREYBUS_I2C_H_
 
-#include <nuttx/greybus/types.h>
+#include <osal/greybus/types.h>
 
 #define GB_I2C_PROTOCOL_VERSION         0x01
 #define GB_I2C_PROTOCOL_FUNCTIONALITY   0x02

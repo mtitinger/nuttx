@@ -29,7 +29,7 @@
 #ifndef _GB_SVC_H_
 #define _GB_SVC_H_
 
-#include <nuttx/greybus/types.h>
+#include <osal/greybus/types.h>
 
 /* SVC IDs */
 #define GB_SVC_CPORT_ID                 0x00

@@ -29,7 +29,7 @@
 #ifndef _GREYBUS_LIGHTS_H_
 #define _GREYBUS_LIGHTS_H_
 
-#include <nuttx/greybus/types.h>
+#include <osal/greybus/types.h>
 
 #define NAME_LENGTH                             32
 

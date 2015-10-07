@@ -37,7 +37,7 @@
 #include <arch/atomic.h>
 #include <nuttx/list.h>
 #include <nuttx/util.h>
-#include <nuttx/greybus/types.h>
+#include <osal/greybus/types.h>
 
 #define GB_MTU                  2048
 #define GB_MAX_PAYLOAD_SIZE     (GB_MTU - sizeof(struct gb_operation_hdr))

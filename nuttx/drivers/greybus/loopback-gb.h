@@ -30,7 +30,7 @@
 #define __LOOPBACK_GB_H__
 
 #include <nuttx/list.h>
-#include <nuttx/greybus/types.h>
+#include <osal/greybus/types.h>
 #include <nuttx/greybus/loopback.h> /* For greybus loopback request types. */
 
 /* version request has no payload */

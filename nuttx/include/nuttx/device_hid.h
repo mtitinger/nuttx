@@ -35,7 +35,7 @@
 
 #include <nuttx/util.h>
 #include <nuttx/device.h>
-#include <nuttx/greybus/types.h>
+#include <osal/greybus/types.h>
 
 #define DEVICE_TYPE_HID_HW          "hid"
 

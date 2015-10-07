@@ -33,7 +33,7 @@
 #include <sys/types.h>
 #include <nuttx/util.h>
 #include <nuttx/config.h>
-#include <nuttx/greybus/types.h>
+#include <osal/greybus/types.h>
 
 #include <arch/irq.h>
 

@@ -32,7 +32,7 @@
 #ifndef __BATTERY_GB_H__
 #define __BATTERY_GB_H__
 
-#include <nuttx/greybus/types.h>
+#include <osal/greybus/types.h>
 
 /* Greybus battery request types */
 #define GB_BATTERY_TYPE_INVALID             0x00
