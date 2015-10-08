@@ -35,7 +35,7 @@
 
 #include <nuttx/list.h>
 #include <nuttx/greybus/greybus.h>
-#include <nuttx/greybus/loopback.h>
+#include <osal/greybus/loopback.h>
 #include <nuttx/greybus/debug.h>
 #include <nuttx/time.h>
 #include <arch/byteorder.h>

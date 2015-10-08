@@ -37,7 +37,7 @@
 #include <nuttx/device_uart.h>
 #include <nuttx/util.h>
 #include <nuttx/config.h>
-#include <nuttx/greybus/types.h>
+#include <osal/greybus/types.h>
 #include <nuttx/greybus/greybus.h>
 #include <nuttx/greybus/debug.h>
 #include <nuttx/unipro/unipro.h>

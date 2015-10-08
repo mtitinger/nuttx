@@ -31,7 +31,7 @@
 
 #include <nuttx/list.h>
 #include <osal/greybus/types.h>
-#include <nuttx/greybus/loopback.h> /* For greybus loopback request types. */
+#include <osal/greybus/loopback.h> /* For greybus loopback request types. */
 
 /* version request has no payload */
 struct gb_loopback_proto_version_response {

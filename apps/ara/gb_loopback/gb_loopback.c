@@ -34,7 +34,7 @@
 #include <pthread.h>
 #include <sys/time.h>
 
-#include <nuttx/greybus/loopback.h>
+#include <osal/greybus/loopback.h>
 #include <nuttx/util.h>
 #include <nuttx/time.h>
 

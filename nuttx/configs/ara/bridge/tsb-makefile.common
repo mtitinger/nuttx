@@ -67,8 +67,8 @@ LDDIR := $(TOPDIR)/configs/$(CONFIG_ARCH_BOARD)/scripts
 
 # Linux/Cygwin-native toolchain
 MKDEP = $(TOPDIR)/tools/mkdeps.sh
-ARCHINCLUDES = -I. -isystem $(TOPDIR)/include
-ARCHXXINCLUDES = -I. -isystem $(TOPDIR)/include -isystem $(TOPDIR)/include/cxx
+ARCHINCLUDES = -I. -isystem $(TOPDIR)/include -isystem $(TOPDIR)/../../ara-firmware/include
+ARCHXXINCLUDES = -I. -isystem $(TOPDIR)/include -isystem $(TOPDIR)/include/cxx -isystem $(TOPDIR)/../../ara-firmware/include
 ARCHSCRIPT =  -L$(LDDIR) -T$(LDDIR)/$(LDSCRIPT)
 
 CC = $(CROSSDEV)gcc

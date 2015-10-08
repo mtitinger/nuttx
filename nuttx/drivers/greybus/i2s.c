@@ -63,7 +63,7 @@
 #include <nuttx/ring_buf.h>
 #include <nuttx/util.h>
 #include <nuttx/wdog.h>
-#include <nuttx/greybus/types.h>
+#include <osal/greybus/types.h>
 #include <nuttx/greybus/greybus.h>
 #include <nuttx/greybus/debug.h>
 #include <nuttx/unipro/unipro.h>
